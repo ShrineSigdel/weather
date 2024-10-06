@@ -34,7 +34,7 @@ const Page = () => {
 
     const fetchWeatherData = async (location: string) => {
         try {
-            const response = await fetch(`http://api.weatherapi.com/v1/forecast.json?key=${process.env.NEXT_PUBLIC_WEATHER_API_KEY}&q=${location}&days=14`);
+            const response = await fetch(`https://api.weatherapi.com/v1/forecast.json?key=${process.env.NEXT_PUBLIC_WEATHER_API_KEY}&q=${location}&days=14`);
             if (!response.ok) {
                 window.location.href = '/404';
             }
