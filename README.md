@@ -5,7 +5,7 @@ A weather forecast web application built with Next.js and TypeScript that provid
 ## Features
 
 - 🌍 Search weather data by city or location.
-- ⏳ 14-day weather forecast.
+- ⏳ Hourly weather forecast.
 - ☁️ Displays current conditions including temperature, humidity, and wind speed.
 - 📆 Future weather predictions including temperature highs and lows, rainfall, and more.
 - 🔄 Real-time weather updates using the [WeatherAPI](https://www.weatherapi.com/).
