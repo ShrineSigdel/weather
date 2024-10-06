@@ -48,7 +48,7 @@ const Page = () => {
     };
 
     useEffect(() => {
-        fetchWeatherData('London'); // Default location
+        fetchWeatherData('Kathmandu'); // Default location
     }, []);
 
     const handleSearch = (location: string) => {
