@@ -9,6 +9,9 @@ var config = {
     ],
     theme: {
     	extend: {
+			fontSize: {
+				'extra-sm': '0.625rem', // 10px
+			  },
     		colors: {
     			background: 'hsl(var(--background))',
     			foreground: 'hsl(var(--foreground))',
