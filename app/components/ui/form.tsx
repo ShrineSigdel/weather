@@ -26,7 +26,7 @@ const WeatherForm: React.FC<WeatherFormProps> = ({ onSearch }) => {
                 onChange={(e) => setValue(e.currentTarget.value)}
                 type="text"
             />
-            <Button type="submit" className="bg-green-500 text-slate-900 hover:bg-green-400" >Search</Button>
+            <Button type="submit" className="bg-green-500 text-slate-900 hover:bg-green-400" disabled={value===''}>Search</Button>
         </form>
     )
 }
