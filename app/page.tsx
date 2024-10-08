@@ -12,6 +12,7 @@ import { ScrollArea } from "@/app/components/ui/scroll-area"
 import WeatherForm from '@/app/components/ui/form'
 import { useState, useEffect } from 'react'
 import { WeatherData } from '@/app/types';
+import Footer from '@/app/components/ui/footer'
 
 
 const getWeatherIcon = (condition: string) => {
@@ -196,6 +197,7 @@ const Page = () => {
                 </section>
 
             </main>
+            <Footer />
         </div>
     );
 };
